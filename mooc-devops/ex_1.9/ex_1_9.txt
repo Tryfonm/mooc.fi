@@ -1,0 +1,3 @@
+$ touch ~/devops_with_docker/logs.txt
+
+$ docker run -d --name looper -v ~/devops_with_docker/logs.txt:/usr/src/app/text.log devopsdockeruh/simple-web-service
