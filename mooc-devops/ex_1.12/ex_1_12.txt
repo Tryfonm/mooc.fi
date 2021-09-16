@@ -1,3 +1,0 @@
-$ docker . build -t frontend
-
-$ docker run -p 1000:5000 frontend
